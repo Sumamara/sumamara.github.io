@@ -1,14 +1,239 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<meta name="generator" content="Hostinger Horizons" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Hostinger Horizons</title>
-	</head>
-	<body>
-		<div id="root"></div>
-		<script type="module" src="/src/main.jsx"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform Life</title>
+    <meta
+      name="description"
+      content="Boost your energy, improve sleep, reduce stress, and stop procrastinating with practical guides and tools."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "DM Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen bg-gradient-to-br from-orange-50 via-pink-50 to-purple-50 text-slate-900">
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-white/50">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+        <a href="#top" class="text-xl font-bold text-orange-600">Transform Life</a>
+        <div class="hidden items-center gap-6 text-sm font-semibold text-slate-700 md:flex">
+          <a href="#products" class="hover:text-orange-600">Products</a>
+          <a href="#assessment" class="hover:text-orange-600">Assessment</a>
+          <a href="#blog" class="hover:text-orange-600">Blog</a>
+          <a href="#contact" class="hover:text-orange-600">Contact</a>
+        </div>
+        <a
+          href="#contact"
+          class="rounded-full bg-gradient-to-r from-orange-500 to-pink-500 px-5 py-2 text-sm font-semibold text-white shadow-lg"
+        >
+          Start Today
+        </a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="relative overflow-hidden px-4 pb-20 pt-24">
+        <div class="absolute inset-0">
+          <div class="absolute -left-24 top-24 h-72 w-72 rounded-full bg-orange-200/40 blur-3xl"></div>
+          <div class="absolute -right-24 bottom-16 h-72 w-72 rounded-full bg-purple-200/40 blur-3xl"></div>
+        </div>
+        <div class="relative mx-auto flex max-w-5xl flex-col items-center text-center">
+          <div class="mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-orange-400 via-pink-500 to-purple-500 text-white shadow-xl">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+            </svg>
+          </div>
+          <h1 class="mb-6 text-4xl font-bold text-transparent bg-gradient-to-r from-orange-600 via-pink-600 to-purple-600 bg-clip-text md:text-6xl">
+            Transform Your Life
+          </h1>
+          <p class="mb-8 max-w-3xl text-lg text-slate-700 md:text-xl">
+            Discover proven strategies to boost your energy, improve sleep quality, reduce stress, and overcome procrastination. Your journey to a better you starts here.
+          </p>
+          <div class="flex flex-col gap-4 sm:flex-row">
+            <a
+              href="#products"
+              class="rounded-full bg-gradient-to-r from-orange-500 to-pink-500 px-8 py-4 text-base font-semibold text-white shadow-lg"
+            >
+              Start Your Transformation
+            </a>
+            <a
+              href="#blog"
+              class="rounded-full border-2 border-orange-300 px-8 py-4 text-base font-semibold text-orange-600 hover:bg-orange-50"
+            >
+              Read Our Blog
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="bg-white/70 px-4 py-20">
+        <div class="mx-auto max-w-6xl">
+          <div class="mb-12 text-center">
+            <p class="text-sm font-semibold uppercase tracking-widest text-orange-500">Core Programs</p>
+            <h2 class="mt-3 text-3xl font-bold md:text-4xl">Choose your transformation path</h2>
+            <p class="mt-4 text-slate-600">
+              Target the habits that matter most with guided playbooks, worksheets, and practical routines.
+            </p>
+          </div>
+          <div class="grid gap-6 md:grid-cols-2">
+            <div class="rounded-3xl border border-orange-100 bg-white p-6 shadow-lg">
+              <h3 class="text-xl font-semibold">More Energy</h3>
+              <p class="mt-2 text-slate-600">
+                Unlock boundless vitality with a 7-day plan that optimizes mornings, nutrition, and focus.
+              </p>
+              <ul class="mt-4 space-y-2 text-sm text-slate-600">
+                <li>• Morning activation protocol</li>
+                <li>• Nutrition quick wins</li>
+                <li>• Daily momentum tracker</li>
+              </ul>
+            </div>
+            <div class="rounded-3xl border border-purple-100 bg-white p-6 shadow-lg">
+              <h3 class="text-xl font-semibold">Better Sleep</h3>
+              <p class="mt-2 text-slate-600">
+                Create restorative rest with evening rituals and science-backed wind-down routines.
+              </p>
+              <ul class="mt-4 space-y-2 text-sm text-slate-600">
+                <li>• Sleep environment checklist</li>
+                <li>• 20-minute unwind sequence</li>
+                <li>• Nightly consistency score</li>
+              </ul>
+            </div>
+            <div class="rounded-3xl border border-pink-100 bg-white p-6 shadow-lg">
+              <h3 class="text-xl font-semibold">Less Stress</h3>
+              <p class="mt-2 text-slate-600">
+                Re-center with gentle breathing, boundaries, and mindset shifts you can keep.
+              </p>
+              <ul class="mt-4 space-y-2 text-sm text-slate-600">
+                <li>• 3-minute reset routines</li>
+                <li>• Stress trigger map</li>
+                <li>• Weekly recovery plan</li>
+              </ul>
+            </div>
+            <div class="rounded-3xl border border-teal-100 bg-white p-6 shadow-lg">
+              <h3 class="text-xl font-semibold">Stop Procrastinating</h3>
+              <p class="mt-2 text-slate-600">
+                Take action fast with decision frameworks and focus sprints that get things done.
+              </p>
+              <ul class="mt-4 space-y-2 text-sm text-slate-600">
+                <li>• 10-minute kickoff guide</li>
+                <li>• Distraction-proof checklist</li>
+                <li>• Weekly accountability map</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="assessment" class="relative overflow-hidden bg-slate-900 px-4 py-20 text-white">
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900"></div>
+        <div class="relative mx-auto grid max-w-6xl gap-10 md:grid-cols-2 md:items-center">
+          <div class="rounded-3xl border border-white/10 bg-white/10 p-8 shadow-2xl">
+            <div class="flex items-center justify-center">
+              <div class="h-64 w-64 rounded-full border-8 border-white/10 p-10">
+                <div class="flex h-full w-full items-center justify-center rounded-full border-4 border-orange-400 text-lg font-semibold">
+                  Wheel of Life
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-500 to-pink-500 px-4 py-1 text-xs font-semibold uppercase tracking-wide">
+              Free Assessment Tool
+            </div>
+            <h2 class="mt-6 text-3xl font-bold md:text-4xl">
+              Not sure where to start?<br />Discover your balance.
+            </h2>
+            <p class="mt-4 text-lg text-slate-300">
+              Take our interactive Wheel of Life Assessment to visualize your current state across energy, sleep, stress, and productivity. Get a personalized score and identify the one area that needs your attention most.
+            </p>
+            <a
+              href="#contact"
+              class="mt-6 inline-flex items-center rounded-xl bg-white px-6 py-3 text-base font-semibold text-slate-900"
+            >
+              Take the Assessment Free
+            </a>
+            <p class="mt-3 text-sm text-slate-400">Takes less than 2 minutes.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="px-4 py-20">
+        <div class="mx-auto max-w-6xl">
+          <div class="mb-10 text-center">
+            <p class="text-sm font-semibold uppercase tracking-widest text-orange-500">Latest insights</p>
+            <h2 class="mt-3 text-3xl font-bold md:text-4xl">Guides from the Transform Life team</h2>
+          </div>
+          <div class="grid gap-6 md:grid-cols-3">
+            <article class="rounded-2xl border border-orange-100 bg-white p-6 shadow-lg">
+              <h3 class="text-lg font-semibold">The morning reset that powers your day</h3>
+              <p class="mt-2 text-sm text-slate-600">
+                A 15-minute routine designed to spike energy and protect focus all morning.
+              </p>
+              <p class="mt-4 text-sm font-semibold text-orange-500">5 min read</p>
+            </article>
+            <article class="rounded-2xl border border-purple-100 bg-white p-6 shadow-lg">
+              <h3 class="text-lg font-semibold">Build a bedtime ritual you can stick to</h3>
+              <p class="mt-2 text-sm text-slate-600">
+                Wind down with science-backed cues that help you fall asleep faster.
+              </p>
+              <p class="mt-4 text-sm font-semibold text-purple-500">6 min read</p>
+            </article>
+            <article class="rounded-2xl border border-pink-100 bg-white p-6 shadow-lg">
+              <h3 class="text-lg font-semibold">Stress relief on busy days</h3>
+              <p class="mt-2 text-sm text-slate-600">
+                Five micro-habits that calm your nervous system without slowing you down.
+              </p>
+              <p class="mt-4 text-sm font-semibold text-pink-500">4 min read</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="bg-white/70 px-4 py-20">
+        <div class="mx-auto max-w-5xl rounded-3xl border border-orange-100 bg-white p-10 shadow-xl">
+          <div class="grid gap-10 md:grid-cols-2">
+            <div>
+              <p class="text-sm font-semibold uppercase tracking-widest text-orange-500">Stay connected</p>
+              <h2 class="mt-3 text-3xl font-bold md:text-4xl">Ready to feel better every day?</h2>
+              <p class="mt-4 text-slate-600">
+                Join the Transform Life newsletter for weekly coaching tips, free worksheets, and exclusive program previews.
+              </p>
+            </div>
+            <form class="flex flex-col gap-4">
+              <input
+                type="text"
+                placeholder="Full name"
+                class="w-full rounded-full border border-slate-200 px-4 py-3 text-sm focus:border-orange-400 focus:outline-none"
+              />
+              <input
+                type="email"
+                placeholder="Email address"
+                class="w-full rounded-full border border-slate-200 px-4 py-3 text-sm focus:border-orange-400 focus:outline-none"
+              />
+              <button
+                type="submit"
+                class="rounded-full bg-gradient-to-r from-orange-500 to-pink-500 px-6 py-3 text-sm font-semibold text-white shadow-lg"
+              >
+                Get Updates
+              </button>
+              <p class="text-xs text-slate-500">We respect your inbox. Unsubscribe anytime.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="px-4 py-10 text-center text-sm text-slate-500">
+      <p>© 2024 Transform Life. Built as a single static HTML file.</p>
+    </footer>
+  </body>
 </html>
